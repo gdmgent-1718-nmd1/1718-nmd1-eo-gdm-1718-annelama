@@ -9,10 +9,212 @@ body {
     color: #333;
     line-height: 1.5em;
     padding: 25px;
+    background:#836BDB;
 }
 
 img {
-    max-width: 100%; /* Afbeeldingen responsive maken */
+    max-width: 100%;
+    max-height: 100%; /* Afbeeldingen responsive maken */
 }
 
-/* Voeg jouw css hieraan toe */
+h3{
+    font-size: 3em;
+    color:rgb(75, 75, 75);
+}
+
+h4{
+    font-size: 1 em;
+    color: rgb(150, 150, 150);
+}
+label{
+    font: "PT Sans";
+    color: #FFF;
+}
+.container{
+    display: flex;
+    background: #000;
+}
+.one {
+    flex-direction: row;
+    width: 20%;
+    margin: 10px;
+    padding-top: 50px;
+    background: #836bdb;
+    text-align: center;
+}
+.two {
+    flex-direction: row;
+    width: 20%;
+    margin: 10px;
+    padding-top: 50px;
+    background: #c866e8;
+    text-align: center;
+}
+.three {
+    flex-direction: row;
+    width: 20%;
+    margin: 10px;
+    padding-top: 50px;
+    background: #4a378e;
+    text-align: center;
+    color: #FFF;
+}
+.four {
+    flex-direction: row;
+    width: 20%;
+    margin: 10px;
+    padding-top: 50px;
+    background: #e1af84;
+    text-align: center;
+}
+.five {
+    flex-direction: row;
+    width: 20%;
+    margin: 10px;
+    padding-top: 50px;
+    background: #6a72f2;
+    text-align: center;
+}
+.container_2{
+    background: #000;
+}
+.twoone{
+    font-family: 'PT Serif';
+    font-weight: bold;
+    font-size: 25px;
+    color: #e1af84;
+    margin: 10px;
+    padding: 20px 20px 0px;
+    text-align: center;
+}
+.twotwo{
+    font-family: 'PT Sans';
+    font-size: 16px;
+    color: #FFF;
+    margin: 10px;
+    padding: 50px 50px 20px;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container_3{
+    background: #836BDB;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.menu {
+    background-color: #C866E8;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 5px 8px 8px;
+}
+.menu a {
+    float: left;
+    color: #4A378E;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.menu a:hover {
+    background-color: #836BDB;
+}
+
+.footer {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 500px;
+    justify-content: center;
+}
+.footer a {
+    float: center;
+    color: #FFF;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 35px;
+
+}
+.copy{
+    font-size: 8px;
+    color:#fff;
+    margin: auto;
+    overflow: hidden;
+    width: 500px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.form-style-1 {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+}
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form-style-1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.form-style-1 input[type=text],
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea,
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    outline: none; 
+}
+
+.form-style-1 .field-divided{
+    width: 49%;
+}
+
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-select{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: #836BDB;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #6A72F2;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    border-radius: 15px;
+}
